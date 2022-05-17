@@ -3,21 +3,22 @@
 <details>
   <summary><strong>Table of Contents</strong></summary>
 
-  * [Query](#query)
-  * [Mutation](#mutation)
-  * [Objects](#objects)
-    * [Forum](#forum)
-    * [Message](#message)
-    * [User](#user)
-  * [Scalars](#scalars)
-    * [Boolean](#boolean)
-    * [Date](#date)
-    * [ID](#id)
-    * [String](#string)
+- [Query](#query)
+- [Mutation](#mutation)
+- [Objects](#objects)
+  - [Forum](#forum)
+  - [Message](#message)
+  - [User](#user)
+- [Scalars](#scalars)
+  - [Boolean](#boolean)
+  - [Date](#date)
+  - [ID](#id)
+  - [String](#string)
 
 </details>
 
 ## Query
+
 <table>
 <thead>
 <tr>
@@ -52,6 +53,7 @@
 </table>
 
 ## Mutation
+
 <table>
 <thead>
 <tr>
@@ -200,6 +202,8 @@ The `Boolean` scalar type represents `true` or `false`.
 
 ### Date
 
+The `Date` scalar type represents a datetime object. It is serialized as a ISO 8601 string in order to be human readable.
+
 ### ID
 
 The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `"4"`) or integer (such as `4`) input value will be accepted as an ID.
@@ -207,4 +211,3 @@ The `ID` scalar type represents a unique identifier, often used to refetch an ob
 ### String
 
 The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
-
